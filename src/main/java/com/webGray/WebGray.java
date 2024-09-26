@@ -1,11 +1,11 @@
 package com.webGray;
 
 import com.perfree.plugin.proxy.HtmlRenderProxy;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.jsoup.nodes.Document;
 import org.springframework.stereotype.Component;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 @Component
 public class WebGray extends HtmlRenderProxy {
